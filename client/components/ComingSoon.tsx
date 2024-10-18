@@ -1,7 +1,8 @@
 function ComingSoon() {
+  const imageUrl = '/public/coming_soon.png'
   return (
     <div className="comingSoonImageContainer">
-      <img width="577" src="./public/coming_soon.png" alt="Coming Soon" />
+      <img width="577" src={imageUrl} alt="Coming Soon" />
     </div>
   )
 }
