@@ -1,5 +1,4 @@
 import ComingSoon from './ComingSoon'
-import ComingSoon from './ComingSoon'
 
 function App() {
   return (
