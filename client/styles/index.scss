@@ -1,6 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
-
-html, 
 body {
-  font-family: 'Montserrat', sans-serif;
+  background-color: #faf8f1;
+  color: #0a1520;
+  font-family: 'Poppins', sans-serif;
+}
+
+.comingSoonImageContainer {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .comingSoonImageContainer {
+    height: 80vh;
+  }
+  .comingSoonImageContainer img {
+    max-width: 80%;
+  }
 }
